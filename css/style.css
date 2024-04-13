@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+    background-size: cover;
+    background-size: contain;
+    height: 641px;
+
+}
+.container{
+    justify-content: center;
+    text-align: center;
+    display:inline-block;
+    border-color: aqua;
+    border: 2px solid rgb(91, 91, 107);
+    border-radius: 5px;
+    margin-left: 35%;
+    height: 500px;
+    width: 350px;
+    margin-top:70px ;
+}
+
+.heading{
+    /* padding-top: 0px;
+    padding-bottom: 0px; */
+    font-family: "Bebas Neue", sans-serif;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    color: white;
+    border-radius: 2px;
+    text-align: left;
+    padding-left: 14px;
+    padding-top: 130px;
+
+}
+
+.heading img{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 763px;
+    bottom: 507px;
+}
+
+.heading p{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 16px;
+    /* font-weight: bold; */
+    padding-bottom: 5px;
+}
+
+input{
+    margin: 20px 0px;
+    border-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 10px;
+    background-color: rgb(238, 243, 243);
+}
+
+.inputs{
+    background-color: white;
+}
+
+button{
+    margin: 20px 0px;
+    border-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 10px; 
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+
+.text{
+    /* margin: 20px 0px;
+    border-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 10px; */
+    background-color: rgb(255, 255, 255);
+    font-family: "Bebas Neue", sans-serif;
+    text-align: start;
+    padding: 3px 10px;
+    height: 212px;
+}
+
+.text ul{
+    font-family: "Mukta", sans-serif;
+    margin: 3px 0px;
+    border-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 1px 10px;
+}
+
+.text ul i{
+    position: absolute;
+    left: 787px;
+    top: 371px;
+}
